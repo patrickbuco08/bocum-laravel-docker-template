@@ -1,9 +1,9 @@
 {
     "$schema": "https://getcomposer.org/schema.json",
-    "name": "laravel/laravel",
+    "name": "bocum/laravel-docker-template",
     "type": "project",
-    "description": "The skeleton application for the Laravel framework.",
-    "keywords": ["laravel", "framework"],
+    "description": "A ready-to-use Laravel Docker development environment with pre-configured services for quick project setup.",
+    "keywords": ["laravel", "docker", "template", "development", "environment"],
     "license": "MIT",
     "require": {
         "php": "^8.2",
@@ -21,7 +21,7 @@
     },
     "autoload": {
         "psr-4": {
-            "App\\": "app/",
+            "Bocum\\": "Bocum/",
             "Database\\Factories\\": "database/factories/",
             "Database\\Seeders\\": "database/seeders/"
         }

@@ -1,5 +1,5 @@
 <?php
 
 return [
-    App\Providers\AppServiceProvider::class,
+    Bocum\Providers\AppServiceProvider::class,
 ];

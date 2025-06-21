@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Providers;
+namespace Bocum\Providers;
 
 use Illuminate\Support\ServiceProvider;
 
